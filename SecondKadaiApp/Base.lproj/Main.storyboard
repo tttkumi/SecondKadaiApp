@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="17B48" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="landscape">
+    <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -19,11 +19,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Hp-Cf-mlT">
-                                <rect key="frame" x="176" y="162" width="384" height="30"/>
+                                <rect key="frame" x="172.5" y="162" width="30" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="BAi-8l-Od1"/>
                                 </constraints>
@@ -33,7 +33,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="名前を入力して下さい" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2jf-vC-Vz8">
-                                <rect key="frame" x="50" y="102" width="636" height="30"/>
+                                <rect key="frame" x="46" y="102" width="283" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ui3-nF-1bL"/>
                                 </constraints>
@@ -47,8 +47,6 @@
                             <constraint firstItem="2jf-vC-Vz8" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="82" id="6Np-K1-8Dn"/>
                             <constraint firstItem="2Hp-Cf-mlT" firstAttribute="centerX" secondItem="2jf-vC-Vz8" secondAttribute="centerX" id="Ao3-KU-UuV"/>
                             <constraint firstItem="2Hp-Cf-mlT" firstAttribute="top" secondItem="2jf-vC-Vz8" secondAttribute="bottom" constant="30" id="EgY-4G-7kS"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="2Hp-Cf-mlT" secondAttribute="trailing" constant="156" id="L2n-ed-wHr"/>
-                            <constraint firstItem="2Hp-Cf-mlT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="156" id="pKh-x7-ejQ"/>
                             <constraint firstItem="2jf-vC-Vz8" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="raY-Ub-5fl"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2jf-vC-Vz8" secondAttribute="trailing" constant="30" id="wXV-ui-VbU"/>
                         </constraints>
@@ -70,11 +68,11 @@
                         <viewControllerLayoutGuide type="bottom" id="uBh-wn-4fj"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wp5-Fw-xI9">
-                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前が入力されていません" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSk-ah-YwF">
-                                <rect key="frame" x="50" y="126" width="636" height="25"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名前を入力して下さい" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BSk-ah-YwF">
+                                <rect key="frame" x="46" y="126" width="283" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="bes-BG-8wX"/>
                                 </constraints>
@@ -83,7 +81,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zdd-Yt-AKZ">
-                                <rect key="frame" x="165" y="190" width="406" height="30"/>
+                                <rect key="frame" x="172" y="190" width="31" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="FQt-fz-qyZ"/>
                                 </constraints>
@@ -95,8 +93,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="zdd-Yt-AKZ" firstAttribute="leading" secondItem="wp5-Fw-xI9" secondAttribute="leadingMargin" constant="145" id="Qaw-eT-4mJ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="zdd-Yt-AKZ" secondAttribute="trailing" constant="145" id="Sps-ki-7j4"/>
+                            <constraint firstItem="zdd-Yt-AKZ" firstAttribute="centerX" secondItem="BSk-ah-YwF" secondAttribute="centerX" id="8of-5S-iug"/>
                             <constraint firstItem="BSk-ah-YwF" firstAttribute="leading" secondItem="wp5-Fw-xI9" secondAttribute="leadingMargin" constant="30" id="k6t-X3-KKc"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BSk-ah-YwF" secondAttribute="trailing" constant="30" id="ovX-Sv-IUY"/>
                             <constraint firstItem="zdd-Yt-AKZ" firstAttribute="top" secondItem="BSk-ah-YwF" secondAttribute="bottom" constant="39" id="p1R-fL-VkY"/>
